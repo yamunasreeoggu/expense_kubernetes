@@ -6,6 +6,6 @@
 grafana:
   ingress:
     enabled: true
-    ingressClassName: nginx
+    ingressClassName: alb
     hosts:
       - grafana.yamunadevops.online
