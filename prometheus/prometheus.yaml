@@ -1,0 +1,11 @@
+# helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+# helm repo update
+# helm install prometheus prometheus-community/kube-prometheus-stack
+
+
+grafana:
+  ingress:
+    enabled: true
+    ingressClassName: nginx
+    hosts:
+      - grafana.rdevopsb73.online
